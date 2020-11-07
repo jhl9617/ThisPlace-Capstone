@@ -17,6 +17,7 @@ import androidx.core.content.ContextCompat;
 public class GpsTracker extends Service implements LocationListener {
     private final Context mContext;
     Location location;
+    double dlrpehlsk;
     double latitude;
     double longitude;
     private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10;
